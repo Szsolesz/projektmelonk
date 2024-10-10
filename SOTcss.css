@@ -16,21 +16,26 @@ body {
     background-position: center;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* A tartalom felülre igazítása */
+    justify-content: flex-start; 
     align-items: center;
     color: white;
+    font-size: 30px;
+    height: 200%; /* Ez a példa meghosszabbítja a tartalmat, hogy legyen mit görgetni */
+    overflow-y: scroll; /* Függőleges görgetősáv mindig látható */
+    background-attachment: fixed;
+    
 }
 
-.container {
+
+/*.container {
     text-align: center;
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
-    margin-top: 20px; /* Pár pixeles távolság a tetejétől */
+    margin-top: 20px;  
     width: 50%;
     height: 100%;
-}
-
+} */
 
 h1 {
     font-family: 'Pirata One', cursive;
@@ -40,7 +45,15 @@ h1 {
     transform: translateX(-50%);
     margin: 0;
     padding: 10px;
-    color: white;
+    color: black;
     font-size: 3em;
     letter-spacing: 2px;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+
+img {
+    display: block; /* Hogy a margók jól működjenek */
+    margin: 0 auto; /* Középre igazítja a képet */
+    margin: 100px;
 }
