@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+<link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
 * {
     margin: 0;
     padding: 0;
@@ -20,12 +21,24 @@ body {
     align-items: center;
     color: white;
     font-size: 30px;
-    height: 200%; /* Ez a példa meghosszabbítja a tartalmat, hogy legyen mit görgetni */
-    overflow-y: scroll; /* Függőleges görgetősáv mindig látható */
+    height: 200%;
+    overflow-y: scroll;
     background-attachment: fixed;
     
 }
 
+button {
+    border: 10px;
+    background: none;
+    color:black;
+    font-size: 35px;
+    padding: 15px 30px;
+    margin: 70px;
+    cursor: pointer;
+    font-family: 'Pirata One', cursive;
+    text-align: center;
+    align-items: center;
+}
 
 /*.container {
     text-align: center;
